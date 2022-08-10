@@ -1,0 +1,11 @@
+
+[
+java:S4684!"@Replace this persistent entity with a simple POJO or DTO object.(„Ì´ïþÿÿÿÿ
+A
+java:S1452!"&Remove usage of generic wildcard type.(„Ì´ïþÿÿÿÿ
+A
+java:S1452-"&Remove usage of generic wildcard type.(ê¤óýøÿÿÿÿ
+[
+java:S46848"@Replace this persistent entity with a simple POJO or DTO object.(ã¹žÖÿÿÿÿÿ
+X
+java:S1128"CRemove this unused import 'javax.annotation.security.RolesAllowed'.(®®€

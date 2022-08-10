@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://10.1.1.179:5432/anme
+    username: alfresco
+    password: alfresco
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+management:
+  endpoint:
+    flowable:
+      enable: true
+  health:
+    show-details: always
+  endpoints:
+    enable-by-default: true
+    web:
+      base-path: /
+
+flowable:
+  mailServerHost: smtp.gmail.com
+  mailServerPort: 587
+  mailServerUserName: rh-cynapsys@cynapsys.de
+  mailServerPassword: tunisie2014!
+  mailServerUseTls: true
+
+
+security:
+  ignored: /**
